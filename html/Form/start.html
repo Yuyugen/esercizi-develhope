@@ -17,46 +17,48 @@
 
   <body>
     <h1>Registration Form</h1>
-    <label>Enter your email*: <input type="email" placeholder="r.madonia@gmail.com" required></label>
-    <br>
-    <label>Create a password*: <input type="password" required></label>
-    <br>
-    <label>Enter your first and last name*: <input type="text" placeholder="Roberto Madonia" maxlength="20" required></label>
-    <br>
-    <label>Enter your phone number: <input type="text" maxlength="10"></label>
-    <hr>
+    <form>
+      <label>Enter your email*: <input type="email" placeholder="r.madonia@gmail.com" required></label>
+      <br>
+      <label>Create a password*: <input type="password" required></label>
+      <br>
+      <label>Enter your first and last name*: <input type="text" placeholder="Roberto Madonia" maxlength="20" required></label>
+      <br>
+      <label>Enter your phone number: <input type="text" maxlength="10"></label>
+      <hr>
 
-    <h2>Plans and payment methods</h2>
-    <label>Choose your desired service plan*: 
-      <select required>
-        <option disabled selected>Select</option>
-        <option>Free plan</option>
-        <optgroup label="Paid plans">
-          <option>Bronze: $19.99</option>
-          <option>Silver: $39.99</option>
-          <option>Gold: $59.99</option>
-        </optgroup>
-      </select>
-    </label>
+      <h2>Plans and payment methods</h2>
+      <label>Choose your desired service plan*: 
+        <select required>
+          <option disabled selected>Select</option>
+          <option>Free plan</option>
+          <optgroup label="Paid plans">
+            <option>Bronze: $19.99</option>
+            <option>Silver: $39.99</option>
+            <option>Gold: $59.99</option>
+          </optgroup>
+        </select>
+      </label>
 
-    <br>
-    <label>Your credit/debit card number*: <input type="text" maxlength="16" required></label>
-    <br>
-    <label>Expiration date*: <input type="date" required></label>
-    <br>
-    <label>CVV/CVC*: <input type="text" maxlength="3" size="5" required></label>
-    <hr>
-    <h2>Billing info</h2>
-    <label>Address line 1*: <input type="text" maxlength="40" required></label>
-    <br>
-    <label>Address line 2: <input type="text" maxlength="40"></label>
-    <br>
-    <label>City*: <input type="text" maxlength="40" required></label>
-    <br>
-    <label>State/Province*: <input type="text" maxlength="40" required></label>
-    <br>
-    <label>Zip/Postal Code*: <input type="text" maxlength="5" required></label>
-    <hr>
-    <button type="submit">Submit</button>
+      <br>
+      <label>Your credit/debit card number*: <input type="text" maxlength="16" required></label>
+      <br>
+      <label>Expiration date*: <input type="date" required></label>
+      <br>
+      <label>CVV/CVC*: <input type="text" maxlength="3" size="5" required></label>
+      <hr>
+      <h2>Billing info</h2>
+      <label>Address line 1*: <input type="text" maxlength="40" required></label>
+      <br>
+      <label>Address line 2: <input type="text" maxlength="40"></label>
+      <br>
+      <label>City*: <input type="text" maxlength="40" required></label>
+      <br>
+      <label>State/Province*: <input type="text" maxlength="40" required></label>
+      <br>
+      <label>Zip/Postal Code*: <input type="text" maxlength="5" required></label>
+      <hr>
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
